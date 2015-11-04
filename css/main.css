@@ -1,0 +1,26 @@
+.banner {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+}
+
+.banner-home {
+	background-image: url("http://placehold.it/290x320");
+}
+
+.banner-tour {
+	background-image: url("http://placehold.it/290x320");
+}
+
+.banner-price {
+	background-image: url("http://placehold.it/290x320");
+}
+
+.banner-signup {
+	background-image: url("http://placehold.it/290x320");
+}
+
+.banner-confirm {
+	background-image: url("http://placehold.it/290x320");
+}
