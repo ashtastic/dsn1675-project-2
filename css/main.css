@@ -24,3 +24,9 @@
 .banner-confirm {
 	background-image: url("http://placehold.it/290x320");
 }
+
+.rules {
+	display: inline-block;
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+}
