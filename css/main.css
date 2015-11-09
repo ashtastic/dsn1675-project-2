@@ -1,3 +1,8 @@
+header {
+	background-color: #000;
+	color: #fff;
+}
+
 .banner {
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -25,6 +30,25 @@
 	background-image: url("http://placehold.it/290x320");
 }
 
+a {
+	text-decoration: none;
+	border: 2px solid;
+	color: #000;
+}
+
+.main-nav a {
+	border: none;
+	color: #fff;
+}
+
+.banner a {
+	color: #fff;
+}
+
+.footer-nav a {
+	border: none;
+}
+
 .rule {
 	border-top: 2px solid;
 	border-bottom: 2px solid;
@@ -40,8 +64,4 @@
 
 .home-signup {
 	background-color: #e6e6e6;
-}
-
-img {
-	border: 1px solid;
 }
