@@ -46,11 +46,6 @@ p {
 	color: #fff;
 }
 
-.main-nav, .footer-nav, .tour-list {
-	list-style: none;
-	margin-bottom: 0;
-}
-
 .banner a {
 	color: #fff;
 }
@@ -69,9 +64,9 @@ p {
 }
 
 .home-pricing, .tour-2 {
-	background-color: #cccccc;
+	background-color: #e6e6e6;
 }
 
 .home-signup, .tour-3 {
-	background-color: #e6e6e6;
+	background-color: #fff;
 }
