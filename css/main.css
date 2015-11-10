@@ -1,4 +1,4 @@
-header {
+header, footer {
 	background-color: #000;
 	color: #fff;
 }
@@ -41,12 +41,12 @@ p {
 	font-weight: 300;
 }
 
-.main-nav a {
+.main-nav a, .footer-nav a {
 	border: none;
 	color: #fff;
 }
 
-.main-nav, .footer-nav {
+.main-nav, .footer-nav, .tour-list {
 	list-style: none;
 	margin-bottom: 0;
 }
@@ -64,14 +64,14 @@ p {
 	border-bottom: 2px solid;
 }
 
-.home-tour {
+.home-tour, .tour-1 {
 	background-color: #b3b3b3;
 }
 
-.home-pricing {
+.home-pricing, .tour-2 {
 	background-color: #cccccc;
 }
 
-.home-signup {
+.home-signup, .tour-3 {
 	background-color: #e6e6e6;
 }
