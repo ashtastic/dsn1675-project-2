@@ -34,11 +34,21 @@ a {
 	text-decoration: none;
 	border: 2px solid;
 	color: #000;
+	font-weight: 400;
+}
+
+p {
+	font-weight: 300;
 }
 
 .main-nav a {
 	border: none;
 	color: #fff;
+}
+
+.main-nav, .footer-nav {
+	list-style: none;
+	margin-bottom: 0;
 }
 
 .banner a {
