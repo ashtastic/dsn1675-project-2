@@ -59,6 +59,18 @@ p {
 	border-bottom: 2px solid;
 }
 
+.rule-b {
+	border-bottom: 1px solid #cccccc;
+}
+
+.rule-l {
+	border-left: 1px solid #cccccc;
+}
+
+.rule-t {
+	border-top: 1px solid #cccccc;
+}
+
 .sec-1 {
 	background-color: #b3b3b3;
 }
