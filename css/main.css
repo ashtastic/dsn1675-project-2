@@ -32,9 +32,8 @@ header, footer {
 
 a {
 	text-decoration: none;
-	border: 2px solid;
-	color: #000;
-	font-weight: 400;
+	border-radius: 8px;
+	padding: 0.375em 0.75em 0.42em;
 }
 
 p {
@@ -48,10 +47,6 @@ p {
 
 .banner a {
 	color: #fff;
-}
-
-.footer-nav a {
-	border: none;
 }
 
 .rule {
