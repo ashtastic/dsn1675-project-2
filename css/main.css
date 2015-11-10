@@ -59,14 +59,13 @@ p {
 	border-bottom: 2px solid;
 }
 
-.home-tour, .tour-1 {
+.sec-1 {
 	background-color: #b3b3b3;
 }
 
-.home-pricing, .tour-2 {
+.sec-2 {
 	background-color: #e6e6e6;
 }
-
-.home-signup, .tour-3 {
+.sec-3 {
 	background-color: #fff;
 }
