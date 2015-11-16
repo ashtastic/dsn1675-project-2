@@ -46,6 +46,10 @@ p {
 	color: #fff;
 }
 
+.main-nav a:hover, .footer-nav a:hover {
+	color: #333;
+}
+
 .banner a {
 	color: #fff;
 }
@@ -53,18 +57,6 @@ p {
 .rule {
 	border-top: 2px solid;
 	border-bottom: 2px solid;
-}
-
-.rule-b {
-	border-bottom: 1px solid #cccccc;
-}
-
-.rule-l {
-	border-left: 1px solid #cccccc;
-}
-
-.rule-t {
-	border-top: 1px solid #cccccc;
 }
 
 .sec-1 {
