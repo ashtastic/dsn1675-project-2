@@ -71,3 +71,12 @@ p {
 	background-color: #f2f2f2;
 }
 
+a:focus, [tabindex="0"]:focus,
+input:focus, textarea:focus, button:focus {
+  outline: 3px solid #ffce00;
+  outline-offset: 3px;
+}
+
+.current {
+	color: #ffce00;
+}
