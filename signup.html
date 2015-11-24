@@ -38,96 +38,127 @@
 	</div>
 </header>
 
-<main role="main" id="main">
-	<p class="island text-center normal">Signing up is easy. Follow the steps and fill in the spaces below, and you'll be creating designs together in no time.</p>
+<main role="main" id="main" class="gutter-1-2">
+	<form action="confirmation.html" method="post">
+		<p class="island text-center normal">Signing up is easy. Follow the steps and fill in the spaces below, and you'll be creating designs together in no time.</p>
 
-	<div class="grid push">
-		<div class="unit xs-1 s-1 m-1-2 l-1-2 island text-center">
-			<h2 class="text-upper">Step 1</h2>
-			<p>Choose a price plan.</p>
-				<a class="btn--light btn--light:hover block text-upper text-center push" href="">
-					<h3 class="push-1-4">Free</h3>
-						<h4 class="push-1-2 tera">$0</h4>
-						<p class="normal">Access to software features</p>
-				</a>
-				<a class="btn--light btn--light:hover block text-upper text-center push" href="">
-					<h3 class="push-1-4">Premium</h3>
-						<h4 class="push-1-2 tera">$10</h4>
-						<p class="normal">Access to extra features</p>
-				</a>
-				<a class="btn--light btn--light:hover block text-upper text-center push" href="">
-					<h3 class="push-1-4">Mega Premium</h3>
-						<h4 class="push-1-2 tera">$20</h4>
-						<p class="normal">Access to all features</p>
-				</a>
-		</div>
+		<div class="grid">
 
-		<div class="unit xs-1 s-1 m-1-2 l-1-2 island text-center">
-			<h2 class="text-upper">Step 2</h2>
-				<p class="">Choose a username and password.</p>
-				<a class="btn btn:hover text-upper milli" href="facebook.html ">Sign up with Facebook</a>
-				<p class="bold island push-0 giga text-upper">or</p>
-				<div class="grid gutter-2">
-					<div class="unit xs-1 s-1-2 m-1-2 l-1-2 text-left">
-						<p class="push-1-4 text-upper milli normal">Username</p>
-						<input class="push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Email</p>
-						<input class="push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Password</p>
-						<input class="push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Confirm Password</p>
-						<input class="push-1-2"></input>
+			<div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-2">
+				<div class="push text-center island sec-2">
+					<h2 class="text-upper push-0">Step 1</h2>
+					<div>
+						<p class="island text-center normal push-0">Choose a username and password.</p>
+						<div class="push-1-2 text-upper milli">
+							<label for="name">Username</label>
+							<input id="name" placeholder="beyonce29">
+						</div>
+						<div class="push-1-2 text-upper milli">
+							<label for="email">E-mail</label>
+							<input type="email" id="email" placeholder="your@email.com">
+						</div>
+						<div class="push-1-2 text-upper milli">
+							<label for="password">Password</label>
+							<input id="password" type="password">
+						</div>
+						<div class="push text-upper milli">
+							<label for="confirm-password">Confirm Password</label>
+							<input id="confirm-password" type="password">
+						</div>
 					</div>
 				</div>
-		</div>
-	</div>
+			</div>
 
-	<div class="island text-center gutter-2">
-		<h2 class="text-upper">Step 3</h2>
-			<h3 class="kilo text-upper">Mega Premium & Premium Plans</h3>
-			<p class="normal">If you chose the free plan, skip this step.</p>
-			<p class="gutter-2">If you chose any of the premium plans, please provide your billing information. It should look exactly how it appears on your credit card. information is only used to complete the purchase.</p>
-			<a class="btn btn:hover text-upper milli" href="paypal.html">Use your PayPal account</a>
-			<p class="bold pad-t push-0 giga text-upper">or</p>
-				<div class="grid">
-					<div class="unit xs-1 s-1-2 m-1-2 l-1-2 island text-left">
-						<p class="push-1-4 text-upper milli normal">Card Type</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Card Number</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Csc<a href="https://www.paypal.com/ao/cgi-bin/merchantpaymentweb?cmd=xpt/Help/popup/CVVInfoPopC-outside">What?!</a></p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Expiration Date</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">First Name</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Last Name</p>
-						<input class="img-flex push-1-2"></input>
-					</div>
-					<div class="unit xs-1 s-1-2 m-1-2 l-1-2 island text-left">
-						<p class="push-1-4 text-upper milli normal">Address</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Apt#</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Postal Code</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">City</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Country</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Email</p>
-						<input class="img-flex push-1-2"></input>
-						<p class="push-1-4 text-upper milli normal">Confirm Email</p>
-						<input class="img-flex push-1-2"></input>
-					</div>
+			<div class="unit xs-1 s-1 m-1-2 l-1-2 push text-center gutter-1-2">
+				<div class="sec-1 island">
+					<h2 class="text-upper push-0">Step 2</h2>
+					<fieldset class="text-left gutter-2">
+						<legend class="island text-center">Choose a price plan.</legend>
+						<div class="push-1-2">
+							<input type="radio" id="free-plan" name="price-plan">
+							<label class="gutter-1-2 text-upper bold push-1-4" for="free-plan">Free</label>
+							<p class="milli">$0 | Access to software features</p>
+						</div>
+						<div class="push-1-2">
+							<input type="radio" id="premium-plan" name="price-plan">
+							<label class="gutter-1-2 text-upper bold push-1-4" for="premium-plan">Premium</label>
+							<p class="milli">$10 | Access to extra features</p>
+						</div>
+						<div class="push">
+							<input type="radio" id="mega-premium-plan" name="price-plan">
+							<label class="gutter-1-4 text-upper bold" for="mega-premium-plan">Mega Premium</label>
+							<p class="milli">$20 | Access to all features</p>
+						</div>
+					</fieldset>
 				</div>
-	</div>
+			</div>
+		</div>
 
-	<div class="text-center push-2">
-		<h2 class="text-upper pad-t">Almost Done!</h2>
-		<p class="gutter">Click on the button below to complete the sign up process and to agree to the PhotoPlus terms of use.</p>
-		<a class="btn btn:hover tera push text-upper" href="confirmation.html" aria-label="Confirm and finish the sign–up process.">Sign Me Up</a>
-	</div>
+		<div class="gutter-1-2">
+			<div class="text-center sec-3 island">
+				<h2 class="text-upper">Step 3</h2>
+					<h3 class="kilo text-upper">Mega Premium & Premium Plans</h3>
+					<p class="normal">If you chose the free plan, skip this step.</p>
+					<p class="gutter">If you chose any of the premium plans, please provide your billing information. It should look exactly how it appears on your credit card. information is only used to complete the purchase.</p>
+						<div class="grid">
+							<div class="unit xs-1 s-1-2 m-1-2 l-1-2 island text-left">
+								<div>
+									<label class="text-upper milli normal" for="card-type">Card Type</label>
+									<select id="card-type" class="push img-flex">
+										<option>Visa</option>
+										<option>MasterCard</option>
+										<option>American Express</option>
+									</select>
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="card-number">Card Number</label>
+									<input id="card-number" name="card-number" class="push img-flex" placeholder="xxxx xxxx xxxx xxxx">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="csc">CSC<a class="micro bold" href="https://www.paypal.com/ao/cgi-bin/merchantpaymentweb?cmd=xpt/Help/popup/CVVInfoPopC-outside">What?!</a></label>
+									<input id="csc" name="csc" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="expiration-date">Expiration Date</label>
+									<input type="date" id="expiration-date" name="expiration-date" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="name">Name</label>
+									<input id="name" name="name" class="push img-flex" placeholder="Ms. Beyonce Knowles">
+								</div>
+							</div>
+							<div class="unit xs-1 s-1-2 m-1-2 l-1-2 island text-left">
+								<div>
+									<label class="text-upper milli normal" for="address">Address</label>
+									<input id="address" name="address" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="apartment-number">Apt#</label>
+									<input id="apartment-number" name="apartment-number" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="postal-code">Postal Code</label>
+									<input id="postal-code" name="postal-code" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="city">City</label>
+									<input id="city" name="city" class="push img-flex">
+								</div>
+								<div>
+									<label class="text-upper milli normal" for="country">Country</label>
+									<input id="country" name="country" class="push img-flex">
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+
+		<div class="text-center island push-2">
+			<h2 class="text-upper pad-t-2">Almost Done!</h2>
+			<p class="gutter">Click on the button below to complete the sign up process and to agree to the PhotoPlus terms of use.</p>
+			<button type="submit" class="btn btn:hover tera push text-upper" href="confirmation.html" aria-label="Confirm and finish the sign–up process.">Confirm and Finish Sign Up</button>
+		</div>
+	</form>
 </main>
 
 <footer class="footer milli text-center">
