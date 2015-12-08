@@ -68,15 +68,15 @@ p {
 }
 
 .sec-1 {
-	background-color: #b3b3b3;
+	background-color: #feeebb;
 }
 
 .sec-2 {
-	background-color: #e6e6e6;
+	background-color: #fedf77;
 }
 
 .sec-3 {
-	background-color: #f2f2f2;
+	background-color: #ffce06;
 }
 
 a:focus, [tabindex="0"]:focus,
