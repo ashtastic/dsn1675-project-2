@@ -3,6 +3,10 @@ header, footer {
 	color: #fff;
 }
 
+.logo {
+	width: 150px;
+}
+
 .banner {
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -10,12 +14,16 @@ header, footer {
 	width: 100%;
 }
 
+.banner h1, .banner p {
+	text-shadow: 2px 4px 6px #000;
+}
+
 .banner-home {
-	background-image: url("http://placehold.it/290x320");
+	background-image: url("../images/banner-home.jpg");
 }
 
 .banner-tour {
-	background-image: url("http://placehold.it/290x320");
+	background-image: url("../images/banner-tour.jpg");
 }
 
 .banner-price {
@@ -47,11 +55,11 @@ p {
 }
 
 .main-nav a:hover, .footer-nav a:hover {
-	color: #333;
+	color: #ffce06;
 }
 
 .banner a {
-	color: #fff;
+	color: #000;
 }
 
 .rule {
@@ -79,4 +87,24 @@ input:focus, textarea:focus, button:focus {
 
 .current {
 	color: #ffce00;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.375em 0.75em 0.42em;
+  background-color: #333;
+  border-radius: 8px;
+  border: 0;
+  color: #ffce06;
+  text-decoration: none;
+}
+
+.btn--light {
+  background-color: #ffce06;
+  color: #000;
+}
+
+.btn--light:hover {
+  background-color: #333;
+  color: #fff;
 }
