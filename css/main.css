@@ -3,6 +3,10 @@ header, footer {
 	color: #fff;
 }
 
+p {
+	font-weight: 300;
+}
+
 .logo {
 	width: 150px;
 }
@@ -38,11 +42,6 @@ a {
 	text-decoration: none;
 	border-radius: 8px;
 	padding: 0.375em 0.75em 0.42em;
-	color: black;
-}
-
-p {
-	font-weight: 300;
 }
 
 .main-nav a, .footer-nav a {
@@ -54,8 +53,24 @@ p {
 	color: #ffce06;
 }
 
-.banner a {
-	color: #000;
+.btn {
+  display: inline-block;
+  padding: 0.375em 0.75em 0.42em;
+  background-color: #333;
+  border-radius: 8px;
+  border: 0;
+  color: #ffce06;
+  text-decoration: none;
+}
+
+.btn--light {
+  background-color: #ffce06;
+  color: #000;
+}
+
+.btn--light:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 .rule {
@@ -83,24 +98,4 @@ input:focus, textarea:focus, button:focus {
 
 .current {
 	color: #ffce00;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.375em 0.75em 0.42em;
-  background-color: #333;
-  border-radius: 8px;
-  border: 0;
-  color: #ffce06;
-  text-decoration: none;
-}
-
-.btn--light {
-  background-color: #ffce06;
-  color: #000;
-}
-
-.btn--light:hover {
-  background-color: #333;
-  color: #fff;
 }
