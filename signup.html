@@ -39,7 +39,7 @@
 </header>
 
 <main role="main" id="main" class="gutter-1-2">
-	<form action="confirmation.html" method="post">
+	<form action="https://formspree.io/murr0306@algonquinlive.com" method="post">
 		<p class="island text-center normal">Signing up is easy. Follow the steps and fill in the spaces below, and you'll be creating designs together in no time.</p>
 
 		<div class="grid">
@@ -51,19 +51,19 @@
 						<p class="island text-center normal push-0">Choose a username and password.</p>
 						<div class="push-1-2 text-upper text-left milli">
 							<label for="name">Username</label>
-							<input id="name" placeholder="beyonce29">
+							<input id="name" name="name" placeholder="beyonce29">
 						</div>
 						<div class="push-1-2 text-upper text-left milli">
 							<label for="email">E-mail</label>
-							<input type="email" id="email" placeholder="your@email.com">
+							<input type="email" id="email" name="email" placeholder="your@email.com">
 						</div>
 						<div class="push-1-2 text-upper text-left milli">
 							<label for="password">Password</label>
-							<input id="password" type="password">
+							<input id="password" name="password" type="password">
 						</div>
 						<div class="push text-upper text-left milli">
 							<label for="confirm-password">Confirm Password</label>
-							<input id="confirm-password" type="password">
+							<input id="confirm-password" name="confirm-password" type="password">
 						</div>
 					</div>
 				</div>
@@ -104,7 +104,7 @@
 							<div class="unit xs-1 s-1-2 m-1-2 l-1-2 island text-left">
 								<div>
 									<label class="text-upper milli normal" for="card-type">Card Type</label>
-									<select id="card-type" class="push img-flex">
+									<select id="card-type" came="card-type" class="push img-flex">
 										<option>Visa</option>
 										<option>MasterCard</option>
 										<option>American Express</option>
@@ -158,6 +158,9 @@
 			<p class="gutter">Click on the button below to complete the sign up process and to agree to the PhotoPlus terms of use.</p>
 			<button type="submit" class="btn btn:hover tera push text-upper" href="confirmation.html" aria-label="Confirm and finish the sign–up process.">Confirm and Finish Sign Up</button>
 		</div>
+
+		<input type="hidden" name="_next" value="http://ashtastic.github.io/dsn1675-project-2/confirmation.html">
+		<input type="hidden" name="_subject" value="New signup!">
 	</form>
 </main>
 
