@@ -99,3 +99,11 @@ input:focus, textarea:focus, button:focus {
 .current {
 	color: #ffce00;
 }
+
+@media print {
+
+	.print-p-0{
+		padding: 0;
+	}
+
+}
